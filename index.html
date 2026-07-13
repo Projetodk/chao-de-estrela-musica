@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Chão de Estrela Música - canções da vida simples." />
+    <title>Chão de Estrela Música</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#inicio" aria-label="Chão de Estrela Música, início">
+        <span class="brand-mark" aria-hidden="true">CE</span>
+        <span>Chão de Estrela <b>Música</b></span>
+      </a>
+      <a class="top-link" href="#musicas">Músicas</a>
+    </header>
+
+    <main id="inicio">
+      <section class="hero" aria-labelledby="titulo-principal">
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Canções da terra, da viola e da saudade</p>
+          <h1 id="titulo-principal">Chão de Estrela</h1>
+          <p class="hero-copy">Uma moda sertaneja para quem carrega no peito o amor pela vida simples.</p>
+          <a class="listen-link" href="#ouvir">Ouvir agora <span aria-hidden="true">↓</span></a>
+        </div>
+        <p class="hero-credit">Foto de paisagem: Unsplash</p>
+      </section>
+
+      <section class="release" id="ouvir" aria-labelledby="faixa-titulo">
+        <div class="cover-art" role="img" aria-label="Viola sobre uma paisagem rural ao amanhecer"></div>
+        <div class="release-info">
+          <p class="eyebrow dark">Lançamento</p>
+          <h2 id="faixa-titulo">Chão de Estrela</h2>
+          <p class="metadata">Moda de viola · Dueto sertanejo</p>
+          <audio id="player" controls preload="metadata">
+            <source src="musicas/chao-de-estrela.mp3" type="audio/mpeg" />
+            Seu navegador não consegue tocar este áudio.
+          </audio>
+          <div class="actions">
+            <a class="download" href="musicas/chao-de-estrela.mp3" download>Baixar música</a>
+            <button class="lyrics-button" type="button" data-scroll-to="letra">Ler a letra</button>
+          </div>
+          <p class="notice">Compartilhamento gratuito e sem anúncios. Música criada com Suno para uso não comercial.</p>
+        </div>
+      </section>
+
+      <section class="music-list" id="musicas" aria-labelledby="musicas-titulo">
+        <div class="section-heading">
+          <p class="eyebrow dark">Catálogo</p>
+          <h2 id="musicas-titulo">Mais para ouvir</h2>
+        </div>
+        <article class="track-card">
+          <div class="track-art" role="img" aria-label="Estrada de terra entre campos verdes"></div>
+          <div class="track-content">
+            <p class="eyebrow dark">Dueto sertanejo</p>
+            <h3>Meu Lugar, Nosso Caminho</h3>
+            <p>Uma canção sobre raízes, amor e a escolha de caminhar juntos.</p>
+            <audio controls preload="metadata">
+              <source src="musicas/meu-lugar-nosso-caminho.mp3" type="audio/mpeg" />
+              Seu navegador não consegue tocar este áudio.
+            </audio>
+            <div class="actions">
+              <a class="download" href="musicas/meu-lugar-nosso-caminho.mp3" download>Baixar música</a>
+              <a class="lyrics-button" href="#letra-meu-lugar">Ler a letra</a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="lyrics" id="letra" aria-labelledby="letra-titulo">
+        <div class="section-heading">
+          <p class="eyebrow dark">A canção</p>
+          <h2 id="letra-titulo">Chão de Estrela</h2>
+        </div>
+        <div class="lyric-columns">
+          <article>
+            <h3>Introdução</h3>
+            <p>Ô de casa... eu já tô chegando!</p>
+            <p>Com a viola no peito e a saudade cantando!</p>
+
+            <h3>Verso 1</h3>
+            <p>Nasci na beira dum córrego bonito<br />Onde o galo anuncia o sol nascer<br />Café em cima do fogão de lenha<br />Perfuma a casa antes do amanhecer</p>
+            <p>Levo a enxada, levo a viola<br />Cada dia renovo a esperança<br />Trabalho a terra com amor.<br />E agradeço a Deus por esse lugar.</p>
+
+            <h3>Refrão</h3>
+            <p>Eu sou daqui, desse chão vermelho<br />Onde a paineira abraça o céu azul<br />Meu chão de estrela é meu tesouro<br />Brilha mais forte que qualquer luz</p>
+            <p>Ô ê... vida boa de viver<br />Ô ê... aqui é meu lugar<br />Com minha viola e meu ranchinho<br />Aqui tenho paz e felicidade.</p>
+          </article>
+          <article>
+            <h3>Verso 2</h3>
+            <p>Lá no terreiro a galinha cisca<br />Lá na represa o lambari faz festa<br />O vento traz perfume das flores<br />E a lua clareia toda a floresta</p>
+            <p>Chega o compadre trazendo um queijo<br />A prosa corre sem perceber<br />Quem vive simples vive sorrindo<br />Tem riqueza sem nem conhecer</p>
+
+            <h3>Ponte</h3>
+            <p>Ô cumpadi, afina essa viola!<br />Que hoje a moda vai amanhecer!<br />Se eu puxar uma bem chorada...<br />Quero ver ocê responder!</p>
+
+            <h3>Solo de Viola</h3>
+
+            <h3>Refrão Final</h3>
+            <p>Eu sou daqui, desse chão vermelho<br />Onde a paineira abraça o céu azul<br />Meu chão de estrela é meu tesouro<br />Brilha mais forte que qualquer luz</p>
+            <p>Ô ê... vida boa de viver<br />Ô ê... aqui é meu lugar<br />Com minha viola e meu ranchinho<br />Eu não troco por nada<br />Nem por ouro nem por prata.</p>
+            <p>Meu destino é esse chão<br />Meu chão de estrela</p>
+
+            <h3>Final</h3>
+            <p>Enquanto Deus me der saúde...<br />Minha viola nunca vai calar.</p>
+            <p>Nesse chão de estrela eu nasci...<br />Nesse chão de estrela vou cantar...<br />Nesse chão de estrela pra sempre vou morar...</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="lyrics alternate" id="letra-meu-lugar" aria-labelledby="letra-meu-lugar-titulo">
+        <div class="section-heading">
+          <p class="eyebrow dark">A canção</p>
+          <h2 id="letra-meu-lugar-titulo">Meu Lugar, Nosso Caminho</h2>
+        </div>
+        <div class="lyric-columns">
+          <article>
+            <h3>Verso 1 - Ela</h3>
+            <p>Quando o sol desperta a serra<br />Meu olhar desperta também<br />Cada canto dessa terra<br />Fez de mim quem hoje eu sou</p>
+            <p>O riacho conhece meu nome<br />O vento entende meu cantar<br />Foi aqui que a minha história<br />Aprendeu a caminhar</p>
+
+            <h3>Verso 2 - Ele</h3>
+            <p>Eu cheguei por outra estrada<br />Sem saber onde parar<br />Procurava um porto calmo<br />Um motivo pra ficar</p>
+            <p>Foi olhando nos teus olhos<br />Que encontrei direção<br />E entendi que aquela terra<br />Também seria meu chão</p>
+
+            <h3>Pré-Refrão</h3>
+            <p><strong>Ele</strong><br />A terra me ensinou a sonhar...</p>
+            <p><strong>Ela</strong><br />Você me ensinou a ficar...</p>
+            <p><strong>Os dois</strong><br />E juntos aprendemos...<br />O verdadeiro significado de lar.</p>
+          </article>
+          <article>
+            <h3>Refrão - Os dois</h3>
+            <p>Meu lugar...<br />É onde a sua mão encontra a minha<br />Nosso caminho...<br />Floresce a cada novo dia</p>
+            <p>A terra nos deu raízes<br />O amor nos fez crescer<br />E lado a lado descobrimos<br />O melhor jeito de viver</p>
+
+            <h3>Versos 3 e 4</h3>
+            <p><strong>Ela</strong><br />Hoje vejo a mesma estrada<br />Com um novo amanhecer<br />Porque a vida ganha brilho<br />Quando existe você</p>
+            <p><strong>Ele</strong><br />Cada sonho que eu guardava<br />Encontrou o seu lugar<br />Pois a casa mais bonita<br />É aquela feita de amor</p>
+
+            <h3>Ponte</h3>
+            <p><strong>Ela</strong><br />Se um dia vier a chuva...</p>
+            <p><strong>Ele</strong><br />Nós esperamos juntos.</p>
+            <p><strong>Ela</strong><br />Se vier um novo sol...</p>
+            <p><strong>Ele</strong><br />Nós colhemos seus frutos.</p>
+            <p><strong>Os dois</strong><br />Porque quem caminha de mãos dadas...<br />Nunca anda sozinho.</p>
+
+            <h3>Refrão Final - Os dois</h3>
+            <p>Meu lugar...<br />É onde a sua mão encontra a minha<br />Nosso caminho...<br />Segue firme a cada dia</p>
+            <p>Se a vida mudar a estrada<br />Nosso amor saberá seguir<br />Pois quem planta amor na terra<br />Vê a felicidade florir</p>
+
+            <h3>Final</h3>
+            <p><strong>Ela</strong><br />A terra me ensinou a esperar...</p>
+            <p><strong>Ele</strong><br />Você me ensinou a amar...</p>
+            <p><strong>Os dois</strong><br />E juntos aprendemos...<br />Que o lar...<br />É onde dois corações...<br />Escolhem caminhar...</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span class="brand-mark" aria-hidden="true">CE</span>
+      <p>Chão de Estrela Música</p>
+      <small>Feito para ouvir, compartilhar e guardar no coração.</small>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
