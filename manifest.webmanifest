@@ -1,0 +1,17 @@
+{
+  "name": "Chão de Estrela Música",
+  "short_name": "Chão de Estrela",
+  "description": "Canções da terra, da viola e da saudade.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f5ed",
+  "theme_color": "#1c443b",
+  "icons": [
+    {
+      "src": "icons/chao-de-estrela.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -11,10 +11,13 @@
 html { scroll-behavior: smooth; }
 body { margin: 0; color: var(--ink); background: var(--paper); font-family: Georgia, 'Times New Roman', serif; }
 .topbar { height: 72px; padding: 0 clamp(24px, 6vw, 90px); display: flex; justify-content: space-between; align-items: center; background: #fbfaf5; }
+.header-actions { display: flex; align-items: center; gap: 19px; }
 .brand { display: flex; align-items: center; gap: 11px; color: var(--deep-green); text-decoration: none; font-size: 18px; }
 .brand b { color: var(--red-earth); font-weight: normal; }
 .brand-mark { display: grid; place-items: center; width: 33px; height: 33px; background: var(--red-earth); color: #fffaf0; font: 700 12px/1 Arial, sans-serif; letter-spacing: 1px; }
 .top-link { color: var(--deep-green); font: 700 14px Arial, sans-serif; text-decoration: none; }
+.install-button { padding: 9px 11px; border: 1px solid var(--deep-green); color: var(--deep-green); background: transparent; cursor: pointer; font: 700 12px Arial, sans-serif; }
+.install-button:hover { color: #fff; background: var(--deep-green); }
 .hero { position: relative; min-height: min(680px, calc(100vh - 72px)); display: grid; align-items: end; padding: clamp(40px, 8vw, 110px); color: white; background: url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=2200&q=85') center/cover; }
 .hero-shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(14, 35, 25, .83) 0%, rgba(14, 35, 25, .42) 48%, rgba(14, 35, 25, .08) 100%); }
 .hero-content, .hero-credit { position: relative; }
@@ -52,4 +55,4 @@ footer { padding: 45px 30px; display: flex; flex-direction: column; align-items:
 footer .brand-mark { background: var(--sun); color: var(--deep-green); }
 footer p { margin: 5px 0 0; font-size: 20px; }
 footer small { color: #d2dfd2; font: 13px Arial, sans-serif; }
-@media (max-width: 650px) { .topbar { height: 62px; padding: 0 20px; } .brand { font-size: 16px; } .hero { min-height: 560px; padding: 34px 24px; background-position: 60% center; } .hero-shade { background: rgba(14, 35, 25, .62); } .hero-credit { margin-bottom: -8px; } .release { padding: 62px 24px; grid-template-columns: 1fr; } .cover-art { width: min(100%, 380px); } .music-list { padding: 0 24px 60px; } .track-card { grid-template-columns: 1fr; padding: 16px; gap: 25px; } .track-art { width: min(100%, 300px); } .lyrics { padding: 60px 24px; } .lyric-columns { grid-template-columns: 1fr; gap: 0; } }
+@media (max-width: 650px) { .topbar { height: 62px; padding: 0 20px; } .brand { font-size: 16px; } .header-actions { gap: 12px; } .install-button { padding: 8px; } .hero { min-height: 560px; padding: 34px 24px; background-position: 60% center; } .hero-shade { background: rgba(14, 35, 25, .62); } .hero-credit { margin-bottom: -8px; } .release { padding: 62px 24px; grid-template-columns: 1fr; } .cover-art { width: min(100%, 380px); } .music-list { padding: 0 24px 60px; } .track-card { grid-template-columns: 1fr; padding: 16px; gap: 25px; } .track-art { width: min(100%, 300px); } .lyrics { padding: 60px 24px; } .lyric-columns { grid-template-columns: 1fr; gap: 0; } }

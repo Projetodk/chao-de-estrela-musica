@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#1c443b"/>
+  <path fill="#e3a938" d="M256 61l25 74 78 1-63 46 23 75-63-46-63 46 23-75-63-46 78-1z"/>
+  <path fill="#f7f5ed" d="M141 373c66-93 154-90 230 0v35H141z"/>
+  <path fill="#a9442a" d="M125 408h262v43H125z"/>
+  <text x="256" y="472" fill="#f7f5ed" font-family="Arial, sans-serif" font-size="38" font-weight="700" text-anchor="middle">CE</text>
+</svg>
