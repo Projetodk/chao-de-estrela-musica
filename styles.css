@@ -41,7 +41,9 @@ audio { width: min(100%, 510px); height: 46px; }
 .notice { max-width: 520px; margin-top: 25px; color: var(--muted); font: 13px/1.45 Arial, sans-serif; }
 .music-list { max-width: 1100px; margin: 0 auto; padding: 20px 32px 90px; }
 .track-card { display: grid; grid-template-columns: 235px minmax(0, 1fr); gap: 34px; align-items: center; padding: 20px; background: #fbfaf5; border-top: 4px solid var(--sun); }
+.track-card + .track-card { margin-top: 22px; }
 .track-art { aspect-ratio: 1; background: linear-gradient(0deg, rgba(28, 68, 59, .16), rgba(28, 68, 59, .08)), url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=85') 42% center/cover; }
+.track-art.time-art { background-position: 75% center; filter: sepia(.13) saturate(.85); }
 .track-content h3 { margin: 0; font-size: clamp(28px, 3vw, 40px); font-weight: normal; }
 .track-content > p:not(.eyebrow) { max-width: 575px; margin: 12px 0 18px; color: var(--muted); font-size: 18px; line-height: 1.45; }
 .lyrics { padding: 85px max(32px, calc((100% - 1035px) / 2)); background: #e5eadf; }

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'chao-de-estrela-v1';
+const CACHE_NAME = 'chao-de-estrela-v2';
 const APP_FILES = [
   './',
   './index.html',
@@ -7,7 +7,8 @@ const APP_FILES = [
   './manifest.webmanifest',
   './icons/chao-de-estrela.svg',
   './musicas/chao-de-estrela.mp3',
-  './musicas/meu-lugar-nosso-caminho.mp3'
+  './musicas/meu-lugar-nosso-caminho.mp3',
+  './musicas/licao-do-tempo.mp3'
 ];
 
 self.addEventListener('install', (event) => {
