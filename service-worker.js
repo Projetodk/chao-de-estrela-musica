@@ -1,4 +1,4 @@
-const CACHE_NAME = 'chao-de-estrela-v2';
+const CACHE_NAME = 'chao-de-estrela-v3';
 const APP_FILES = [
   './',
   './index.html',

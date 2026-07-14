@@ -43,14 +43,16 @@
           <p class="eyebrow dark">Lançamento</p>
           <h2 id="faixa-titulo">Chão de Estrela</h2>
           <p class="metadata">Moda de viola · Dueto sertanejo</p>
-          <audio id="player" controls preload="metadata">
+          <audio id="player" class="playlist-track" data-title="Chão de Estrela" controls preload="metadata">
             <source src="musicas/chao-de-estrela.mp3" type="audio/mpeg" />
             Seu navegador não consegue tocar este áudio.
           </audio>
           <div class="actions">
+            <button class="playlist-button" id="play-all" type="button">Tocar todas</button>
             <a class="download" href="musicas/chao-de-estrela.mp3" download>Baixar música</a>
             <button class="lyrics-button" type="button" data-scroll-to="letra">Ler a letra</button>
           </div>
+          <p class="playlist-status" id="playlist-status" aria-live="polite">Lista com 3 músicas.</p>
           <p class="notice">Compartilhamento gratuito e sem anúncios. Música criada com Suno para uso não comercial.</p>
         </div>
       </section>
@@ -66,7 +68,7 @@
             <p class="eyebrow dark">Dueto sertanejo</p>
             <h3>Meu Lugar, Nosso Caminho</h3>
             <p>Uma canção sobre raízes, amor e a escolha de caminhar juntos.</p>
-            <audio controls preload="metadata">
+            <audio class="playlist-track" data-title="Meu Lugar, Nosso Caminho" controls preload="metadata">
               <source src="musicas/meu-lugar-nosso-caminho.mp3" type="audio/mpeg" />
               Seu navegador não consegue tocar este áudio.
             </audio>
@@ -82,7 +84,7 @@
             <p class="eyebrow dark">Sertanejo de raiz</p>
             <h3>Lição do Tempo</h3>
             <p>Uma canção de fé, paciência e esperança para quem aprende com o tempo da terra.</p>
-            <audio controls preload="metadata">
+            <audio class="playlist-track" data-title="Lição do Tempo" controls preload="metadata">
               <source src="musicas/licao-do-tempo.mp3" type="audio/mpeg" />
               Seu navegador não consegue tocar este áudio.
             </audio>
